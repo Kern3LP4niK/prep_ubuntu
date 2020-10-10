@@ -50,6 +50,9 @@ dpkg-reconfigure console-setup
 apt_install_ssh_server
 
 install_browsh
+sudo usermod -a -G vboxusers $(whoami)
+sudo apt install virtualbox-ext-pack
+#sudo apt install hasciicam
+sudo apt install vlc
 #install_docker
 #docker pull browsh/browsh
-
